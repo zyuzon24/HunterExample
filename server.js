@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.set('view engine', 'pug');
+app.set('view engine', 'pug');      //This sets the view engine to pug
 
 var data = {
     store: 'Acme',
